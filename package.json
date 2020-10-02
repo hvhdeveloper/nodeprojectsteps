@@ -1,0 +1,27 @@
+{
+  "name": "nodeprojectsteps",
+  "version": "1.0.0",
+  "description": "Pasos para iniciar un proyecto",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./app4MiddlewaresMorgan.js --exec babel-node -e",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Hek",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-0": "^6.24.1",
+    "nodemon": "^2.0.4"
+  },
+  "dependencies": {
+    "alert": "^5.0.5",
+    "body-parser": "^1.19.0",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "lodash": "^4.17.20",
+    "mongoose": "^5.10.7",
+    "morgan": "^1.10.0"
+  }
+}
